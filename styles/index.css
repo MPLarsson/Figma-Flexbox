@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+.screen-one{
+    background-color: rgba(55, 6, 23, 1);
+    height: 100%;
+    max-width: 100%;  
+    min-height: 100vh;
+    padding: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-two{
+    background-color: rgba(250, 163, 7, 1);
+    height: 100%;
+    width: 100%;  
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-rectangle{
+    background-color: rgba(244, 140, 6, 1);
+    border-radius: 8px;
+    width: 468px;
+    height: 160px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
