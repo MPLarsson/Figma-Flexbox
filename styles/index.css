@@ -115,6 +115,7 @@ body{
 .container-rectangle-five .container_box {
     align-self: flex-start;
 }
+
 .container-rectangle-five .container_box:nth-child(3) {
     align-self: flex-end;
 }
