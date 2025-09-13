@@ -40,6 +40,7 @@ body{
     padding: 20px;
     margin: 20px;
     display: flex;
+    align-items: flex-end;
 }
 
 .container-rectangle-two {
@@ -51,6 +52,7 @@ body{
     margin: 20px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .container-rectangle-three {
@@ -62,6 +64,7 @@ body{
     margin: 20px;
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .container-rectangle-four {
@@ -94,18 +97,33 @@ body{
     padding: 20px;
     margin: 20px;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* justify-content: center; */
 }
 
 .container-rectangle-one .container_box {
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .container-rectangle-two .container_box {
-    align-self: center;
+    /* align-self: center; */
 }
 
 .container-rectangle-three .container_box {
-    
+    align-items: center;
+}
+
+.container-rectangle-three .container_box:nth-child(1){
+    align-self: stretch;
+}
+
+.container-rectangle-three .container_box:nth-child(3){
+    align-self: stretch;
+}
+
+.container-rectangle-three .container_box:nth-child(2){
+    align-self: center;
 }
 
 .container-rectangle-four .container_box {
@@ -119,6 +137,17 @@ body{
 .container-rectangle-five .container_box:nth-child(3) {
     align-self: flex-end;
 }
+
+.container-rectangle-six .container_box {
+    align-self: center;
+}
+
+.container-rectangle-six .container_box:nth-child(2){
+    flex-grow: 1;
+    /* width: 156px; */
+}
+   
+
 
 
 
